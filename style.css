@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #f0fbfb;
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.logo img {
+    height: 55px; /* Sesuaikan tinggi logo */
+    width:110px; /* Biarkan lebar menyesuaikan proporsi */
+    margin-right: 10px;
+}
+
+.navbar {
+    justify-content: center;
+    display:flex;
+    align-items:center;
+    background-color:#f0fbfb;
+    padding: 10px 20px;
+}
+    
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1d025c;
+    font-size: 16px;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #b4ebf6;
+    color: #0e0e10;
+    border-radius: 8px;
+}
+
+.auth-buttons button {
+    background-color: #02048b;
+    border: none;
+    color: rgb(231, 231, 250);
+    padding: 10px 30px;
+    margin-left: 200px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    box-shadow: 12px 8px 16px rgba(0, 0, 0, 0.2);    
+
+}
+
+.auth-buttons button:hover {
+    background-color: #b4ebf6;
+    color: #1d025c;
+}
+
+.dropdown {
+    position:relative;
+}
+
+.dropdown-menu {
+    display:none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color: #b4ebf6d7;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    margin: 6px 0;
+}
+
+.dropdown-menu a {
+    color: #fbf8f8;
+    background-color: #039dfc;
+    padding: 2px 12px;
+    display:block;
+    text-decoration:none;
+    text-align: left;
+    border-radius: 2px;
+}
+
+.dropdown-menu a:hover {
+    border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Link styles */
+a {
+    color: #1d025c;
+    text-decoration: none;
+}
+
+/* Hover effects */
+a:hover, .dropdown-menu li a:hover {
+    color: #0101fc;
+}
+
+.signup {
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+}
+
+.simbolpulpis img {
+    height: 100px;
+    width: 800px;
+}
+.struktur img{
+    box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.2);;
+    height: 450px;
+    width:800px;
+}
+.logonaga img {
+    height: 90px;
+    width:1100px;
+
+}
+.hero {
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.watch-btn {
+    background: none;
+    border: 1px dashed rgb(62, 4, 252);
+    border-radius: 8px;
+    padding: 5px 30px;
+    color: #1d025c;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    background: linear-gradient(180deg, #f0eefa, #1d025c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d025c;
+}
+
+.roadmap-section {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1d025c;
+}
+
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.roadmap-grid button {
+    padding: 12px;
+    background-color: #535354;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.roadmap-grid button:hover {
+    background-color: #f3f3f8;
+    color: #0e0e10;
+}
+
